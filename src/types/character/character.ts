@@ -12,3 +12,20 @@ export interface Character {
     url: string;
     created: string;
 }
+
+export interface ApiResponse {
+    info: {
+        count: number;
+        pages: number;
+        next: string | null;
+        prev: string | null;
+    };
+    results: Character[];
+}
+
+export interface CharacterStats {
+    total: number;
+    alive: number;
+    dead: number;
+    unknown: number;
+}

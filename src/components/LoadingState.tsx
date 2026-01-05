@@ -1,7 +1,9 @@
 export default function LoadingState() {
-  return (
-    <div className="flex justify-center items-center h-64">
-      <span className="spinner-border text-primary"></span>
-    </div>
-  );
+    return (
+        <div className="d-flex justify-content-center align-items-center" style={{ minHeight: '400px' }}>
+            <div className="spinner-border text-primary" role="status">
+                <span className="visually-hidden">Cargando...</span>
+            </div>
+        </div>
+    );
 }
