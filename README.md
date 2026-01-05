@@ -213,3 +213,4 @@ El proyecto ha sido refactorizado manteniendo la estructura original pero mejora
 Todas las correcciones se realizaron siguiendo las mejores prácticas de desarrollo, sin reescribir desde cero y respetando la estructura existente del repositorio base, tal como se solicita en las instrucciones de la prueba técnica.
 
 corrección hecha por Daniela Orrego clan Gosling.
+m
